@@ -9,3 +9,4 @@ Thumbs.db
 .idea
 .vagrant/
 tests/_output/*
+!.env.testing.php
