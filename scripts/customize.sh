@@ -2,8 +2,6 @@
 apt-get -y install phantomjs screen
 mysql -u homestead -psecret -e "GRANT ALL PRIVILEGES ON homestead.* TO 'travis'@'%' IDENTIFIED BY ''"
 echo "Set Travis privs"
-mysql -u homestead -psecret -e "CREATE database gsls_homestead;"
-echo "Created gsls_homestead database"
 (crontab -l 2>/dev/null; echo "@reboot    screen -S server -d -m phantomjs --webdriver=4444") | crontab -
 echo "Added scree phantomjs to crontab"
 screen -S server -d -m phantomjs --webdriver=4444
@@ -15,6 +13,6 @@ service nginx restart
 service php5-fpm reload
 /usr/local/bin/composer self-update
 echo "" >> /home/vagrant/.bashrc
-echo "PATH=$PATH:/home/vagrant/hackmemphis.dev//vendor/bin" >> /home/vagrant/.bashrc
+echo "PATH=$PATH:/home/vagrant/hackmemphis.dev/vendor/bin" >> /home/vagrant/.bashrc
 echo "export PATH" >> /home/vagrant/.bashrc
 echo Done!
