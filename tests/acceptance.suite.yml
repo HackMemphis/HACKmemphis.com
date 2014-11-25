@@ -12,7 +12,7 @@ modules:
         - Db
     config:
         WebDriver:
-            url: 'http://report-cards.dev/'
+            url: 'http://hackmemphis.dev/'
             browser: phantomjs
             window_size: 1024x750
             capabilities:
