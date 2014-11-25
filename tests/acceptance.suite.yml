@@ -12,7 +12,7 @@ modules:
         - Db
     config:
         WebDriver:
-            url: 'http://hackmemphis.dev/'
+            url: 'http://localhost/'
             browser: phantomjs
             window_size: 1024x750
             capabilities:
