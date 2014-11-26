@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
-    <title>{% block title %}{% endblock %} HACKmemphis.com | Make Tech Happen</title>
+    <title>HACKmemphis.com | Make Tech Happen</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
