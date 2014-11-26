@@ -3,9 +3,81 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en-US"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!--<![endif]-->
 <head>
-    @section('header')
-        @include('layouts.partials.head')
-    @stop
+    <meta charset="utf-8">
+    <script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+    <title>{% block title %}{% endblock %} HACKmemphis.com | Make Tech Happen</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <script type="text/javascript">//<![CDATA[
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-39820613-1']);
+        _gaq.push(['_trackPageview']);
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+        //]]></script>
+    <link rel='stylesheet' id='ci-google-font-css'  href='http://fonts.googleapis.com/css?family=Open+Sans%3A400%2C700%2C400italic%2C700italic%2C800&#038;subset=latin%2Cgreek-ext%2Cgreek&#038;ver=3.7.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='foundation-css'  href='css/foundation.css?ver=1.0' type='text/css' media='screen' />
+    <link rel='stylesheet' id='flexslider-css'  href='css/flexslider.css?ver=1.0' type='text/css' media='screen' />
+    <link rel='stylesheet' id='qtip-css'  href='css/jquery.qtip.css?ver=1.0' type='text/css' media='screen' />
+    <link rel='stylesheet' id='custom-scrollbar-css'  href='css/jquery.mCustomScrollbar.css?ver=1.0' type='text/css' media='screen' />
+    <link rel='stylesheet' id='ci-style-css'  href='css/style.css?ver=1.0' type='text/css' media='screen' />
+    <link rel='stylesheet' id='mediaqueries-css'  href='css/mediaqueries.css?ver=1.0' type='text/css' media='screen' />
+    <link rel='stylesheet' id='ci-color-scheme-css'  href='css/default.css?ver=3.7.1' type='text/css' media='all' />
+    <script type='text/javascript' src='js/modernizr-2.6.2.js?ver=3.7.1'></script>
+    <script type='text/javascript' src='js/jquery.js?ver=1.10.2'></script>
+    <script type='text/javascript' src='js/jquery-migrate.min.js?ver=1.2.1'></script>
+    <script type='text/javascript' src='js/jquery.flexslider-2.1-min.js?ver=3.7.1'></script>
+    <script type='text/javascript' src='js/jquery.equalHeights.js?ver=3.7.1'></script>
+    <script type='text/javascript' src='js/jRespond.min.js?ver=3.7.1'></script>
+    <script type='text/javascript' src='js/jquery.jpanelmenu.min.js?ver=3.7.1'></script>
+    <script type='text/javascript' src='js/jquery.smooth-scroll.min.js?ver=3.7.1'></script>
+    <script type='text/javascript' src='js/jquery.qtip.min.js?ver=3.7.1'></script>
+    <script type='text/javascript' src='js/jquery.mCustomScrollbar.min.js?ver=3.7.1'></script>
+    <script type='text/javascript' src='http://maps.googleapis.com/maps/api/js?key=AIzaSyB1CpD5ViAJZ33wh2Iobkx_Qnx4FmnwlyA&#038;sensor=false'></script>
+
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
+    <link rel="apple-touch-icon" href="images/favicon.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicon.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicon.png" />
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-39820613-1', 'hackmemphis.com');
+        ga('send', 'pageview');
+
+    </script>
+    <style type="text/css">
+        #header {
+            background: url("images/pattern.png") repeat-x scroll center top #eee;
+            height:80px;
+        }
+        #page {
+            margin-top:50px;
+        }
+        #nav ul {
+            padding-top:10px;
+        }
+
+        #navigation > li > .btn.register, #navigation > li > .btn.register:visited, #btop, #btop:visited, .flex-direction-nav .flex-next, .flex-direction-nav .flex-prev, input[type="submit"], .btn, .btn:visited, .wpcf7 input[type="submit"] {
+            background-color:#e86724;
+        }
+        a, a:visited, a:focus {
+            color:#e86724;
+        }</style>
+    @yield('header')
 </head>
 <body class="home blog ci-ignitionconf ci-ignitionconf-1-0">
 <div id="mobile-bar">
@@ -22,6 +94,9 @@
                 <ul id="navigation" class="sf-menu group">
                     <li><a class="scroll" href="#page">Home</a></li>
                     <li><a class="scroll" href="#about">About</a></li>
+                    {% if hackevents|length > 0 %}
+                    <li><a class="scroll" href="#events">Events</a></li>
+                    {% endif %}
                     <li><a class="scroll" href="#sponsors">Sponsors</a></li>
                     <li><a class="scroll" href="#contact">Contact</a></li>
                     <li><a class="" target="_blank" href="http://hackmemphis2014.peatix.com"><strong>Tickets SOLD OUT</strong></a></li>
@@ -33,132 +108,39 @@
 
     <div class="container">
 
-        @section('content')
-            <div id="sliders">
+        {{--{% block content %}--}}
+        <div id="sliders">
 
-                <div id="image-slider" class="flexslider">
-                    <ul class="slides group">
-                        <li><img src="images/Memphis_from_the_Air_04.jpg" class="attachment-full wp-post-image" alt="Memphis_from_the_Air_04" /></li>
-                    </ul>
-                </div>
+            <div id="image-slider" class="flexslider">
+                <ul class="slides group">
+                    <li><img src="images/Memphis_from_the_Air_04.jpg" class="attachment-full wp-post-image" alt="Memphis_from_the_Air_04" /></li>
+                </ul>
+            </div>
 
-                <div id="main-slider" class="flexslider">
-                    <ul class="slides group">
-                        <li>
-                            <div class="slide-content">
-                                <span class="head">Make Tech Happen</span>
-                                <h2 class="slide-title">HACKmemphis</h2>
+            <div id="main-slider" class="flexslider">
+                <ul class="slides group">
+                    <li>
+                        <div class="slide-content">
+                            <span class="head">Make Tech Happen</span>
+                            <h2 class="slide-title">HACKmemphis</h2>
                         <span class="sub-head">Bringing together local tech communities to develop hardware and software projects in Memphis. <br />
                             <a href="http://hackmemphis2014.peatix.com/" target="_blank">Tickets SOLD OUT! for HACKmemphis 2014! September 19-21!</a>
                             </span>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-
-            </div> <!-- #sliders -->
-
-
-            <section id="about">
-                <div class="row">
-                    <div class="twelve columns">
-                        <h1 class="section-title"><span>About</span></h1>
-                        <div class="about-text">
-                            <p>
-                                HACKmemphis is an organization that hosts a weekend hackathon event. We encourage developers and designers of any background (or technology) to come together to work on whatever projects interest them. HACKmemphis is a free form weekend of hacking on software and hardware projects.
-                            </p>
-                            <p>HACKmemphis is a mutual benefit nonprofit in the state of Tennessee. The
-                                inaugural HACKmemphis Hackathon was September 14th &amp; 15th 2013. Our goal is to bring
-                                together tech communities to develop hardware and software projects in Memphis. We are currently
-                                planning our next event for September 19-21 2014. If you would be interested in volunteering or helping plan please
-                                contact <a href="mailto:joe@hackmemphis.com">Joe</a>.
-                            </p>
-                            <p>HACKmemphis is organized by a group in Memphis comprised of developers, makers, hackers, and
-                                local tech community supporters. We all want to see the local tech scene in Memphis thrive.
-                                We are a mutual nonprofit organization. This is a nonprofit venture. All money raised goes
-                                directly into creating the best event possible.
-                            </p>
-                        </div>			</div>
-                </div> <!-- .row < #about -->
-            </section> <!-- #about -->
-
-            <!-- section_sponsors.php start -->
-            <section id="sponsors">
-                <div class="row">
-                    <h1 class="section-title"><span>2014 Sponsors</span></h1>
-                    <ul class="sponsor-list">
-
-                        {{--{% for currentSponsor in allSponsors %}--}}
-                        {{--{% if '2014' in currentSponsor.year %}--}}
-                        {{--<li class="two columns">--}}
-                        {{--<a href="{{ currentSponsor.link }}" target="_blank">--}}
-                        {{--<img src="{{ currentSponsor.logoPath }}" class="attachment-square wp-post-image" alt="{{ currentSponsor.altText }}" />--}}
-                        {{--</a>--}}
-                        {{--</li>--}}
-                        {{--{% endif %}--}}
-                        {{--{% endfor %}--}}
-
-                        <li class="two columns">
-                            <a href="" target="_blank">
-                                <img src="" class="attachment-square wp-post-image" alt="" />
-                            </a>
-                        </li>
-
-                    </ul>
-                </div> <!-- .row < #sponsors -->
-                <div class="row">
-                    <h1 class="section-title"><span>2013 Sponsors</span></h1>
-                    <ul class="sponsor-list">
-
-                        {{--{% for previousSponsor in allSponsors %}--}}
-                        {{--{% if '2013' in previousSponsor.year %}--}}
-                        {{--<li class="two columns">--}}
-                        {{--<a href="{{ previousSponsor.link }}" target="_blank">--}}
-                        {{--<img src="{{ previousSponsor.logoPath }}" class="attachment-square wp-post-image" alt="{{ previousSponsor.altText }}" />--}}
-                        {{--</a>--}}
-                        {{--</li>--}}
-                        {{--{% endif %}--}}
-                        {{--{% endfor %}--}}
-
-                        <li class="two columns">
-                            <a href="" target="_blank">
-                                <img src="" class="attachment-square wp-post-image" alt="" />
-                            </a>
-                        </li>
-
-                    </ul>
-                </div> <!-- .row < #sponsors -->
-            </section> <!-- #sponsors -->
-            <!-- section_sponsors.php end -->
-            <section id="contact">
-                <div class="row">
-                    <div class="twelve columns">
-                        <h1 class="section-title"><span>Contact</span></h1>
-                        <div class="about-text">
-                            <p>
-                                If you would like to help plan or volunteer at HACKmemphis 2014, please contact <a href="mailto:joe@hackmemphis.com">Joe</a>.
-                            </p>
-                            <p>
-                                Follow us on <a href="https://twitter.com/@hackmemphis" target="_blank">Twitter</a>,
-                                <a href="https://www.facebook.com/HackMemphis" target="_blank">Facebook</a>,
-                                and <a href="https://plus.google.com/u/0/b/104971938203429316985/104971938203429316985/" target="_blank">Google+</a>
-                            </p>
                         </div>
-                    </div>
-                    <div class="twelve columns">
-                        <aside id="text-2" class="widget widget_text group">
-                            <div class="textwidget">
-                                <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/HACKmemphis" data-widget-id="344843077044801536">Tweets by @HACKmemphis</a>
-                                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-                            </div>
-                        </aside>
-                    </div>
-                </div> <!-- .row < #contact -->
-            </section> <!-- #contact -->
+                    </li>
+                </ul>
+            </div>
+
+        </div> <!-- #sliders -->
 
 
+        @include('sections.about')
 
-        @stop
+        @include('sections.sponsors')
+
+        @include('sections.contact')
+
+        @include('sections.events')
 
 
 
@@ -166,8 +148,17 @@
         <a href="#" id="btop">Back to Top</a>
 
     </div> <!-- #page -->
-    @section('footer')
-        @include('layouts.partials.footer-scripts')
-
+    <!-- Footer -->
+    <script type='text/javascript'>
+        /* <![CDATA[ */
+        var ThemeOption = {"map_zoom_level":"5","map_coords_lat":"35.149534","map_coords_long":" -90.048980","map_tooltip":"Memphis, TN"};
+        /* ]]> */
+    </script>
+    <script type='text/javascript' src='js/scripts.js?ver=1.0'></script>
+    <!--[if (gte IE 6)&(lte IE 8)]>
+    <script type="text/javascript" src="js/selectivizr-min.js"></script>
+    <![endif]-->
+    @yield('footer')
+    </div>
 </body>
 </html>
