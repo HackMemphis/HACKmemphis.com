@@ -16,6 +16,7 @@ class CreateYearsTable extends Migration {
 		{
 			$table->increments('id');
 			$table->integer('year');
+			$table->string('sponsor_id');
 			$table->timestamps();
 		});
 	}
