@@ -1,6 +1,6 @@
 <?php
 
-class Years extends \Eloquent {
+class Year extends \Eloquent {
 	protected $fillable = [
 		'year'
 	];
