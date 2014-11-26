@@ -10,3 +10,4 @@ Thumbs.db
 .vagrant/
 tests/_output/*
 !.env.testing.php
+!.env.local.php
