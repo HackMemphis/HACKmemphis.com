@@ -17,6 +17,7 @@
                     We are a mutual nonprofit organization. This is a nonprofit venture. All money raised goes
                     directly into creating the best event possible.
                 </p>
-            </div>			</div>
+            </div>
+        </div>
     </div> <!-- .row < #about -->
 </section> <!-- #about -->
