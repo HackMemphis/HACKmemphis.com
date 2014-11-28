@@ -8,6 +8,8 @@ class Year extends \Eloquent {
 
 	public function sponsors()
 	{
+		// many to many
+		// $year->sponsors()->attach($sponsor_id);
 		return $this->belongsToMany('Sponsor');
 	}
 }

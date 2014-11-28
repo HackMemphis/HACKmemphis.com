@@ -12,6 +12,8 @@ class Sponsor extends \Eloquent {
 
 	public function years()
 	{
+		// many to many
+		// $sponsor->years()->attach($year_id);
 		return $this->belongsToMany('Year');
 	}
 }
