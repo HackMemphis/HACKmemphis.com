@@ -161,7 +161,7 @@ class SponsorTableSeeder extends Seeder {
 				'current' => '1',
 				'year' => '2014'
 			);
-			
+
 			foreach ($sponsors as $sponsor) {
 				// Turn Years into Array
 				$years = explode(',', $sponsor['year']);
