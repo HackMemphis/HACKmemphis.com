@@ -4,19 +4,20 @@
         <h1 class="section-title"><span>2014 Sponsors</span></h1>
         <ul class="sponsor-list">
 
-            {{--{% for currentSponsor in allSponsors %}--}}
-            {{--{% if '2014' in currentSponsor.year %}--}}
-            {{--<li class="two columns">--}}
-            {{--<a href="{{ currentSponsor.link }}" target="_blank">--}}
-            {{--<img src="{{ currentSponsor.logoPath }}" class="attachment-square wp-post-image" alt="{{ currentSponsor.altText }}" />--}}
-            {{--</a>--}}
-            {{--</li>--}}
-            {{--{% endif %}--}}
-            {{--{% endfor %}--}}
+            @foreach ($sponsors['2014'] as $sponsor)
+                <li class="two columns">
+                    <a href="{{ $sponsor->link }}" target="_blank">
+                        <img src="{{ $sponsor->logo_path }}"
+                             class="attachment-square wp-post-image"
+                             alt="{{ $sponsor->alt_text }}" />
+                    </a>
+                </li>
+            @endforeach
 
             <li class="two columns">
                 <a href="" target="_blank">
-                    <img src="" class="attachment-square wp-post-image" alt="" />
+                    <img src="" class="attachment-square wp-post-image"
+                         alt="" />
                 </a>
             </li>
 
@@ -26,19 +27,20 @@
         <h1 class="section-title"><span>2013 Sponsors</span></h1>
         <ul class="sponsor-list">
 
-            {{--{% for previousSponsor in allSponsors %}--}}
-            {{--{% if '2013' in previousSponsor.year %}--}}
-            {{--<li class="two columns">--}}
-            {{--<a href="{{ previousSponsor.link }}" target="_blank">--}}
-            {{--<img src="{{ previousSponsor.logoPath }}" class="attachment-square wp-post-image" alt="{{ previousSponsor.altText }}" />--}}
-            {{--</a>--}}
-            {{--</li>--}}
-            {{--{% endif %}--}}
-            {{--{% endfor %}--}}
+            @foreach ($sponsors['2013'] as $sponsor)
+                <li class="two columns">
+                    <a href="{{ $sponsor->link }}" target="_blank">
+                        <img src="{{ $sponsor->logo_path }}"
+                             class="attachment-square wp-post-image"
+                             alt="{{ $sponsor->alt_text }}" />
+                    </a>
+                </li>
+            @endforeach
 
             <li class="two columns">
                 <a href="" target="_blank">
-                    <img src="" class="attachment-square wp-post-image" alt="" />
+                    <img src="" class="attachment-square wp-post-image"
+                         alt="" />
                 </a>
             </li>
 
