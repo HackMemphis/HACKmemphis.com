@@ -21,7 +21,7 @@ To run the test suite:
 
 ## Vagrant
 
-This vagrant box is build on top of the great work done on [laravel/homestead](https://github.com/laravel/homestead)
+This vagrant box is built on top of the great work done on [laravel/homestead](https://github.com/laravel/homestead)
 
 ## Testing
 
