@@ -1,6 +1,6 @@
 # Contribution Guidelines
 
-Please branch and issue pull requests to dev branch to contribute.
+Please branch and issue pull requests to the dev branch to contribute.
 
 ## Getting Started
 
