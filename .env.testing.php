@@ -4,5 +4,6 @@
     'DB_USERNAME' => 'travis',
     'DB_PASSWORD' => '',
     'MANDRILL_SECRET' => '',
-    'DEBUG' => true
+    'DEBUG' => true,
+    'SECRET_KEY' => 'YourSecretKey!!!'
 );

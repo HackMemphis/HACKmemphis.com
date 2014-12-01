@@ -3,5 +3,6 @@
     'DB_NAME' => 'homestead',
     'DB_USERNAME' => 'homestead',
     'DB_PASSWORD' => 'secret',
-    'DEBUG' => true
+    'DEBUG' => true,
+    'SECRET_KEY' => 'YourSecretKey!!!'
 );
