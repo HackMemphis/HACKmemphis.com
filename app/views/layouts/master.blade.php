@@ -23,6 +23,8 @@
 
         @include('sections.sponsors')
 
+        @include('sections.signup')
+
         @include('sections.contact')
 
         @include('sections.events')
