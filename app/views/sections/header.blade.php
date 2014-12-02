@@ -11,6 +11,7 @@
                 {{--<li><a class="scroll" href="#events">Events</a></li>--}}
                 {{--{% endif %}--}}
                 <li><a class="scroll" href="#sponsors">Sponsors</a></li>
+                <li><a class="scroll" href="#mailinglist">Mailing List</a></li>
                 <li><a class="scroll" href="#contact">Contact</a></li>
                 <li><a class="" target="_blank" href="http://hackmemphis2014.peatix.com"><strong>Tickets SOLD OUT</strong></a></li>
 
