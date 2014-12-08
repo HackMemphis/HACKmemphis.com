@@ -14,7 +14,6 @@
 	"way/generators": "~2.6",
 	"mockery/mockery": "dev-master",
 	"barryvdh/laravel-ide-helper": "dev-master",
-	"barryvdh/laravel-debugbar": "1.x",
 	"codeception/codeception":"~2.0"
   },
 	"autoload": {
