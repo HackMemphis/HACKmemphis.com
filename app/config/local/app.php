@@ -16,6 +16,7 @@ return array(
 	'debug' => true,
 
 	'providers' => array(
-		'Way\Generators\GeneratorsServiceProvider'
+		'Way\Generators\GeneratorsServiceProvider',
+		'Barryvdh\Debugbar\ServiceProvider'
 	)
 );
