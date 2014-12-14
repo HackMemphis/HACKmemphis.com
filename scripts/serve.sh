@@ -16,7 +16,7 @@ block="server {
     location = /favicon.ico { access_log off; log_not_found off; }
     location = /robots.txt  { access_log off; log_not_found off; }
 
-    access_log off;
+    access_log /var/log/nginx/$1-access.log combined;
     error_log  /var/log/nginx/$1-error.log error;
 
     error_page 404 /index.php;
