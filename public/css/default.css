@@ -1,0 +1,38 @@
+/* GLOBAL: #Default Color
+================================================== */
+
+a, a:visited,
+a:focus {
+	color: #ffd200;
+}
+
+a:hover { color: #ffae05; }
+
+#navigation > li > .btn.register,
+#navigation > li > .btn.register:visited,
+#btop, #btop:visited,
+.flex-direction-nav .flex-next,
+.flex-direction-nav .flex-prev,
+input[type=submit],
+.btn, .btn:visited,
+.wpcf7 input[type=submit] {
+	background-color: #ffd200;
+}
+
+#navigation > li > .btn.register,
+#navigation > li > .btn.register:visited,
+#btop, #btop:visited,
+input[type=submit],
+.btn, .btn:visited,
+.wpcf7 input[type=submit] {
+	color: #252525;
+}
+
+#navigation > li > .btn.register:hover,
+#btop:hover,
+input[type=submit]:hover,
+.btn:hover,
+.wpcf7 input[type=submit]:hover{
+	background: #fff;
+}
+
