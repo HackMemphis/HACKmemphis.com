@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "fd4ce67395eb86d40823d51e4e162b3f",
+    "hash": "9264e0f181accac67a75547409a4bf63",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -2601,6 +2601,48 @@
                 "fixtures"
             ],
             "time": "2015-02-19 08:29:00"
+        },
+        {
+            "name": "janhenkgerritsen/codeception-laravel5",
+            "version": "1.0.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/janhenkgerritsen/codeception-laravel5.git",
+                "reference": "b4aef07d548b6becfd54ebf909e1f49de1ca5392"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/janhenkgerritsen/codeception-laravel5/zipball/b4aef07d548b6becfd54ebf909e1f49de1ca5392",
+                "reference": "b4aef07d548b6becfd54ebf909e1f49de1ca5392",
+                "shasum": ""
+            },
+            "require": {
+                "codeception/codeception": "~2.0",
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Codeception": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jan-Henk Gerritsen",
+                    "email": "j.h.gerritsen@movage.nl"
+                }
+            ],
+            "description": "Laravel5 module for Codeception",
+            "keywords": [
+                "codeception",
+                "laravel",
+                "laravel5"
+            ],
+            "time": "2015-02-14 11:20:37"
         },
         {
             "name": "maximebf/debugbar",
