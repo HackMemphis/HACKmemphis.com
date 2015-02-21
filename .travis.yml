@@ -7,8 +7,9 @@ before_install:
   - sudo apt-get update -qq
   - sudo apt-get install -y phantomjs screen
 before_script:
-  - mysql -e 'create database forge;'
-  - mysql -e "GRANT ALL PRIVILEGES ON forge.* TO 'forge'@'%' IDENTIFIED BY ''" -uroot
+  - cp .env.example .env
+  - mysql -e 'create database homestead;'
+  - mysql -e "GRANT ALL PRIVILEGES ON homestead.* TO 'homestead'@'%' IDENTIFIED BY 'secret'" -uroot
   - screen -S server -d -m phantomjs --webdriver=4444
   - "composer self-update"
   - "composer install --dev --no-interaction"
