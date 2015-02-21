@@ -2,6 +2,7 @@ language: php
 php:
   - "5.5"
   - "5.6"
+  - "hhvm"
 before_install:
   - sudo apt-get update -qq
   - sudo apt-get install -y phantomjs screen
@@ -11,7 +12,7 @@ before_script:
   - screen -S server -d -m phantomjs --webdriver=4444
   - "composer self-update"
   - "composer install --dev --no-interaction"
-  - php artisan migrate
+  - php artisan migrate --force
 script:
   - mkdir -p build/logs
   - ./vendor/bin/codecept run
