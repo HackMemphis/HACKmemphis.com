@@ -1,8 +1,8 @@
-@servers(['production' => 'forge@hackmemphis.com'])
+@servers(['prod' => 'forge@hackmemphis.com'])
 
-@task('deploy:production', ['on' => 'production'])
+@task('deploy:prod', ['on' => 'prod'])
 cd /home/forge/hackmemphis.com
 
-/home/forge/hackmemphis.com/deploy.sh
+./deploy.sh
 
 @endtask
