@@ -5,14 +5,14 @@
         </hgroup>
         <nav id="nav">
             <ul id="navigation" class="sf-menu group">
-                <li><a class="scroll" href="#page">Home</a></li>
-                <li><a class="scroll" href="#about">About</a></li>
+                <li><a class="scroll" href="/#page">Home</a></li>
+                <li><a class="scroll" href="/#about">About</a></li>
                 {{--{% if hackevents|length > 0 %}--}}
                 {{--<li><a class="scroll" href="#events">Events</a></li>--}}
                 {{--{% endif %}--}}
-                <li><a class="scroll" href="#sponsors">Sponsors</a></li>
-                <li><a class="scroll" href="#mailinglist">Mailing List</a></li>
-                <li><a class="scroll" href="#contact">Contact</a></li>
+                <li><a class="scroll" href="/#sponsors">Sponsors</a></li>
+                <li><a class="scroll" href="/#mailinglist">Mailing List</a></li>
+                <li><a class="scroll" href="/#contact">Contact</a></li>
             </ul><!-- #navigation -->
         </nav><!-- #nav -->
     </div> <!-- .row < #header -->

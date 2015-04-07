@@ -11,9 +11,10 @@
                 <div class="slide-content">
                     <span class="head">Make Tech Happen</span>
                     <h2 class="slide-title">HACKmemphis</h2>
-                        <span class="sub-head">Bringing together local tech communities to develop hardware and software projects in Memphis. <br />
-                            <a href="http://hackmemphis2014.peatix.com/" target="_blank">Tickets SOLD OUT! for HACKmemphis 2014! September 19-21!</a>
-                            </span>
+                        <span class="sub-head">
+                            Bringing together local tech communities to develop hardware and software projects in Memphis. <br />
+                            Coming September 2015
+                        </span>
                 </div>
             </li>
         </ul>
