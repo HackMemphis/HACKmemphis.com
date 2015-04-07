@@ -2,7 +2,7 @@
 php artisan down
 git pull origin master
 composer install
-php artisan migrate:reset  --force
-php artisan migrate --force
-php artisan db:seed --force
+php artisan migrate:reset  --no-interaction
+php artisan migrate --no-interaction
+php artisan db:seed --no-interaction
 php artisan up
