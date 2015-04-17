@@ -15,11 +15,10 @@ class HomeController extends Controller {
 	protected $sponsor;
 	protected $year;
 
-	/**
-	 * Create a new controller instance.
-	 *
-	 * @return void
-	 */
+    /**
+     * @param \Sponsor $sponsor
+     * @param \Year $year
+     */
 	public function __construct(\Sponsor $sponsor, \Year $year)
 	{
 		$this->middleware('guest');
@@ -34,18 +33,7 @@ class HomeController extends Controller {
 	 */
 	public function index()
 	{
-//		// Get 2014 Sponsors
-//		$sponsors['2014'] = $this->year
-//			->where('year', '2014')
-//			->first()
-//			->sponsors;
-//
-//		// Get 2013 Sponsors
-//		$sponsors['2013'] = $this->year
-//			->where('year', '2013')
-//			->first()
-//			->sponsors;
-		// Get 2013 Sponsors
+        // get current sponsors
 		$sponsors['2015'] = $this->year
 			->where('year', '2015')
 			->first()
