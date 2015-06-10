@@ -1,6 +1,6 @@
 #!/bin/sh
 apt-get -y install phantomjs screen
-mysql -u homestead -psecret -e "GRANT ALL PRIVILEGES ON homestead.* TO 'travis'@'%' IDENTIFIED BY ''"
+mysql -u root -pvagrant -e "GRANT ALL PRIVILEGES ON homestead.* TO 'homestead'@'%' IDENTIFIED BY 'secret'"
 echo "Set Travis privs"
 (crontab -l 2>/dev/null; echo "@reboot    screen -S server -d -m phantomjs --webdriver=4444") | crontab -
 echo "Added scree phantomjs to crontab"
