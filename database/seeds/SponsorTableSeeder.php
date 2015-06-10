@@ -121,7 +121,7 @@ class SponsorTableSeeder extends Seeder {
 				'logo_path' => 'images/coworkmemphis.png',
 				'alt_text' => 'Cowork Memphis is a collaborative coworking space.',
 				'current' => '0',
-				'year' => '2014'
+				'year' => '2014,2015'
 			);
 			$sponsors[] = array('name' => 'Survey Analytics',
 				'link' => 'http://www.surveyanalytics.com/',
