@@ -7,5 +7,3 @@ modules:
     config:
         Db:
             cleanup: true
-        Laravel4:
-            cleanup: true
