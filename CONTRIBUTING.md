@@ -11,6 +11,7 @@ Please branch and issue pull requests to the dev branch to contribute.
 * ```vagrant up```
 * ```vagrant ssh```
 * ```cd hackmemphis.com```
+* ```composer install```
 * ```php artisan migrate```
 * ```php artisan db:seed```
 * Browse to [http://hackmemphis.dev](http://hackmemphis.dev)
