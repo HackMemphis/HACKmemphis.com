@@ -4,7 +4,7 @@
             <h1 class="section-title"><span>Contact</span></h1>
             <div class="about-text">
                 <p>
-                    If you would like to help plan or volunteer at HACKmemphis 2014, please contact <a href="mailto:joe@hackmemphis.com">Joe</a>.
+                    If you would like to help plan or volunteer at HACKmemphis 2015, please contact <a href="mailto:bryan@hackmemphis.com">Bryan</a>.
                 </p>
                 <p>
                     Follow us on <a href="https://twitter.com/@hackmemphis" target="_blank">Twitter</a>,
