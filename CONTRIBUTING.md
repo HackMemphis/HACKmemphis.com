@@ -11,6 +11,7 @@ Please branch and issue pull requests to the dev branch to contribute.
 * ```vagrant up```
 * ```vagrant ssh```
 * ```cd hackmemphis.com```
+* ```cp .env.example .env```
 * ```composer install```
 * ```php artisan migrate```
 * ```php artisan db:seed```
@@ -28,6 +29,12 @@ This vagrant box is built on top of the great work done on [laravel/homestead](h
 
 We use Codeception for testing. Tests should be written to cover as much of our code as possible. We currently rely heavily on acceptance testing but we have Codeception configured for functional and unit tests as well.
 
-## Continuous Deployment
+## Deployment
 
-Continuous deployment is always the goal, currently we're configured for continuous integration using Travis-CI.
+We use [Envoy](http://laravel.com/docs/5.0/envoy#envoy-installation) for deployment. You will need to have it installed locally.
+
+You need to have your SSH key added to the server.
+
+To run a deployment:
+
+```envoy run deploy:prod```
