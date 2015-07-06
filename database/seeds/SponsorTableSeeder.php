@@ -174,6 +174,21 @@ class SponsorTableSeeder extends Seeder {
                 'year' => '2013,2014,2015'
             );
 
+			$sponsors[] = array('name' => 'learn43',
+				'link' => 'http://learn43.me/',
+				'logo_path' => 'images/learn43.png',
+				'alt_text' => 'Creating experiences for students to come face to face with Computer Science, Design, and their dreams.',
+				'current' => '1',
+				'year' => '2015'
+			);
+			$sponsors[] = array('name' => 'CrossBrowserTesting.com',
+				'link' => 'http://crossbrowsertesting.com/',
+				'logo_path' => 'images/cbt-logo.png',
+				'alt_text' => 'Test your websites on the same browsers and devices your customers use.',
+				'current' => '1',
+				'year' => '2015'
+			);
+
 			foreach ($sponsors as $sponsor) {
 				// Turn Years into Array
 				$years = explode(',', $sponsor['year']);
