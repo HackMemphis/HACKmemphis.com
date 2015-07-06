@@ -20,10 +20,10 @@ class SponsorTableSeeder extends Seeder {
 
 			$sponsors[] = array('name' => 'Vaco',
 				'link' => 'http://www.vaco.com/',
-				'logo_path' => 'images/vacologo.jpg',
+				'logo_path' => 'images/vaco2015.png',
 				'alt_text' => 'Vaco',
 				'current' => '0',
-				'year' => '2013'
+				'year' => '2013,2015'
 			);
 			$sponsors[] = array('name' => 'EmergeMemphis',
 				'link' => 'http://emergememphis.org/',
