@@ -22,7 +22,7 @@ class SponsorTableSeeder extends Seeder {
 				'link' => 'http://www.vaco.com/',
 				'logo_path' => 'images/vaco2015.png',
 				'alt_text' => 'Vaco',
-				'current' => '0',
+				'current' => '1',
 				'year' => '2013,2015'
 			);
 			$sponsors[] = array('name' => 'EmergeMemphis',
@@ -85,8 +85,8 @@ class SponsorTableSeeder extends Seeder {
 				'link' => 'http://www.gorocketfuel.com/',
 				'logo_path' => 'images/rocketfuel-logo.png',
 				'alt_text' => 'RocketFuel',
-				'current' => '0',
-				'year' => '2013,2014'
+				'current' => '1',
+				'year' => '2013,2014,2015'
 			);
 			$sponsors[] = array('name' => 'O\'Reilly Media',
 				'link' => 'http://oreilly.com/',
@@ -148,8 +148,8 @@ class SponsorTableSeeder extends Seeder {
 				'link' => 'http://peatix.com',
 				'logo_path' => 'images/peatix-logo.png',
 				'alt_text' => 'Create sleek event pages in minutes!',
-				'current' => '0',
-				'year' => '2014'
+				'current' => '1',
+				'year' => '2014, 2015'
 			);
 			$sponsors[] = array('name' => 'SparkFun',
 				'link' => 'http://SparkFun.com',
@@ -178,6 +178,20 @@ class SponsorTableSeeder extends Seeder {
 				'link' => 'http://learn43.me/',
 				'logo_path' => 'images/learn43.png',
 				'alt_text' => 'Creating experiences for students to come face to face with Computer Science, Design, and their dreams.',
+				'current' => '1',
+				'year' => '2015'
+			);
+			$sponsors[] = array('name' => 'archer>malmo',
+				'link' => 'http://archermalmo.com/',
+				'logo_path' => 'images/archer-malmo.png',
+				'alt_text' => 'brand communications for consumer, B2B and retail clients; strategy, creative, digital, PR, media; 150 employees; founded in 1952; privately held by senior agency staff',
+				'current' => '1',
+				'year' => '2015'
+			);
+			$sponsors[] = array('name' => 'TEKsystems',
+				'link' => 'http://teksystems.com/',
+				'logo_path' => 'images/teksystems.jpg',
+				'alt_text' => '',
 				'current' => '1',
 				'year' => '2015'
 			);
