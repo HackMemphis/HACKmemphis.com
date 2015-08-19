@@ -92,8 +92,8 @@ class SponsorTableSeeder extends Seeder {
 				'link' => 'http://oreilly.com/',
 				'logo_path' => 'images/oreilly-logo-460x84.gif',
 				'alt_text' => 'O\'Reilly Media',
-				'current' => '0',
-				'year' => '2013,2014'
+				'current' => '1',
+				'year' => '2013,2014,2015'
 			);
 			$sponsors[] = array('name' => 'MidsouthMakers',
 				'link' => 'http://www.midsouthmakers.org/',
