@@ -38,6 +38,13 @@ class SponsorTableSeeder extends Seeder {
 				'current' => '1',
 				'year' => '2015'
 			);
+			$sponsors[] = array('name' => 'MidsouthMakers',
+				'link' => 'http://www.midsouthmakers.org/',
+				'logo_path' => 'images/stackedlarge-460x435.png',
+				'alt_text' => 'Memphis Area Makerspace',
+				'current' => '1',
+				'year' => '2013,2014,2015'
+			);
 			$sponsors[] = array('name' => 'Vaco',
 				'link' => 'http://www.vaco.com/',
 				'logo_path' => 'images/vaco2015.png',
@@ -45,6 +52,28 @@ class SponsorTableSeeder extends Seeder {
 				'current' => '1',
 				'year' => '2013,2015'
 			);
+			$sponsors[] = array('name' => 'CapitalC',
+				'link' => 'http://capitalcschool.com/',
+				'logo_path' => 'images/capitalc.png',
+				'alt_text' => 'Capital C',
+				'current' => '1',
+				'year' => '2015'
+			);
+			$sponsors[] = array('name' => 'TEKsystems',
+				'link' => 'http://teksystems.com/',
+				'logo_path' => 'images/teksystems.jpg',
+				'alt_text' => '',
+				'current' => '1',
+				'year' => '2015'
+			);
+			$sponsors[] = array('name' => 'Start Co',
+				'link' => 'http://neverstop.co/',
+				'logo_path' => 'images/startco.png',
+				'alt_text' => 'Start Co',
+				'current' => '1',
+				'year' => '2015'
+			);
+
 			$sponsors[] = array('name' => 'EmergeMemphis',
 				'link' => 'http://emergememphis.org/',
 				'logo_path' => 'images/EmergeMemphis-Logo.png',
@@ -84,8 +113,8 @@ class SponsorTableSeeder extends Seeder {
 				'link' => 'http://www.jetbrains.com/',
 				'logo_path' => 'images/JetBrains-logo.png',
 				'alt_text' => 'JetBrains',
-				'current' => '0',
-				'year' => '2013'
+				'current' => '1',
+				'year' => '2013, 2015'
 			);
 			$sponsors[] = array('name' => 'erf design',
 				'link' => 'http://www.erfdesign.com/',
@@ -101,6 +130,13 @@ class SponsorTableSeeder extends Seeder {
 				'current' => '0',
 				'year' => '2013,2014'
 			);
+			$sponsors[] = array('name' => 'archer>malmo',
+				'link' => 'http://archermalmo.com/',
+				'logo_path' => 'images/archer-malmo.png',
+				'alt_text' => 'brand communications for consumer, B2B and retail clients; strategy, creative, digital, PR, media; 150 employees; founded in 1952; privately held by senior agency staff',
+				'current' => '1',
+				'year' => '2015'
+			);
 			$sponsors[] = array('name' => 'RocketFuel',
 				'link' => 'http://www.gorocketfuel.com/',
 				'logo_path' => 'images/rocketfuel-logo.png',
@@ -108,25 +144,17 @@ class SponsorTableSeeder extends Seeder {
 				'current' => '1',
 				'year' => '2013,2014,2015'
 			);
+			$sponsors[] = array('name' => 'learn43',
+				'link' => 'http://learn43.me/',
+				'logo_path' => 'images/learn43.png',
+				'alt_text' => 'Creating experiences for students to come face to face with Computer Science, Design, and their dreams.',
+				'current' => '1',
+				'year' => '2015'
+			);
 			$sponsors[] = array('name' => 'O\'Reilly Media',
 				'link' => 'http://oreilly.com/',
 				'logo_path' => 'images/oreilly-logo-460x84.gif',
 				'alt_text' => 'O\'Reilly Media',
-				'current' => '1',
-				'year' => '2013,2014,2015'
-			);
-
-			$sponsors[] = array('name' => 'Sphero',
-				'link' => 'www.sphero.com',
-				'logo_path' => 'images/sphero.png',
-				'alt_text' => 'Sphero',
-				'current' => '1',
-				'year' => '2015'
-			);
-			$sponsors[] = array('name' => 'MidsouthMakers',
-				'link' => 'http://www.midsouthmakers.org/',
-				'logo_path' => 'images/stackedlarge-460x435.png',
-				'alt_text' => 'Memphis Area Makerspace',
 				'current' => '1',
 				'year' => '2013,2014,2015'
 			);
@@ -158,6 +186,13 @@ class SponsorTableSeeder extends Seeder {
 				'alt_text' => 'Hub of entrepreneurship at the University of Memphis',
 				'current' => '0',
 				'year' => '2014'
+			);
+			$sponsors[] = array('name' => 'Sphero',
+				'link' => 'www.sphero.com',
+				'logo_path' => 'images/sphero.png',
+				'alt_text' => 'Sphero',
+				'current' => '1',
+				'year' => '2015'
 			);
 			$sponsors[] = array('name' => 'FedEx Institute of Technology',
 				'link' => 'http://www.memphis.edu/fedex',
@@ -196,27 +231,9 @@ class SponsorTableSeeder extends Seeder {
                 'year' => '2013,2014,2015'
             );
 
-			$sponsors[] = array('name' => 'learn43',
-				'link' => 'http://learn43.me/',
-				'logo_path' => 'images/learn43.png',
-				'alt_text' => 'Creating experiences for students to come face to face with Computer Science, Design, and their dreams.',
-				'current' => '1',
-				'year' => '2015'
-			);
-			$sponsors[] = array('name' => 'archer>malmo',
-				'link' => 'http://archermalmo.com/',
-				'logo_path' => 'images/archer-malmo.png',
-				'alt_text' => 'brand communications for consumer, B2B and retail clients; strategy, creative, digital, PR, media; 150 employees; founded in 1952; privately held by senior agency staff',
-				'current' => '1',
-				'year' => '2015'
-			);
-			$sponsors[] = array('name' => 'TEKsystems',
-				'link' => 'http://teksystems.com/',
-				'logo_path' => 'images/teksystems.jpg',
-				'alt_text' => '',
-				'current' => '1',
-				'year' => '2015'
-			);
+
+
+
 
 
 			foreach ($sponsors as $sponsor) {
