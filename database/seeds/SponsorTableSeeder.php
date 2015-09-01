@@ -17,7 +17,27 @@ class SponsorTableSeeder extends Seeder {
             $year2015 = Year::where('year', '2015')->first();
 
 			$sponsors = [];
-
+			$sponsors[] = array('name' => 'CrossBrowserTesting.com',
+				'link' => 'http://crossbrowsertesting.com/',
+				'logo_path' => 'images/cbt-logo.png',
+				'alt_text' => 'Test your websites on the same browsers and devices your customers use.',
+				'current' => '1',
+				'year' => '2015'
+			);
+			$sponsors[] = array('name' => 'Cowork Memphis',
+				'link' => 'http://coworkmemphis.com/',
+				'logo_path' => 'images/coworkmemphis.png',
+				'alt_text' => 'Cowork Memphis is a collaborative coworking space.',
+				'current' => '0',
+				'year' => '2014,2015'
+			);
+			$sponsors[] = array('name' => 'Vanick Digital',
+				'link' => 'http://vanick.com/',
+				'logo_path' => 'images/vanick.png',
+				'alt_text' => 'Vanick Digital',
+				'current' => '1',
+				'year' => '2015'
+			);
 			$sponsors[] = array('name' => 'Vaco',
 				'link' => 'http://www.vaco.com/',
 				'logo_path' => 'images/vaco2015.png',
@@ -95,6 +115,14 @@ class SponsorTableSeeder extends Seeder {
 				'current' => '1',
 				'year' => '2013,2014,2015'
 			);
+
+			$sponsors[] = array('name' => 'Sphero',
+				'link' => 'www.sphero.com',
+				'logo_path' => 'images/sphero.png',
+				'alt_text' => 'Sphero',
+				'current' => '1',
+				'year' => '2015'
+			);
 			$sponsors[] = array('name' => 'MidsouthMakers',
 				'link' => 'http://www.midsouthmakers.org/',
 				'logo_path' => 'images/stackedlarge-460x435.png',
@@ -116,13 +144,7 @@ class SponsorTableSeeder extends Seeder {
 				'current' => '0',
 				'year' => '2014'
 			);
-			$sponsors[] = array('name' => 'Cowork Memphis',
-				'link' => 'http://coworkmemphis.com/',
-				'logo_path' => 'images/coworkmemphis.png',
-				'alt_text' => 'Cowork Memphis is a collaborative coworking space.',
-				'current' => '0',
-				'year' => '2014,2015'
-			);
+
 			$sponsors[] = array('name' => 'Survey Analytics',
 				'link' => 'http://www.surveyanalytics.com/',
 				'logo_path' => 'images/surveyanalytics.jpg',
@@ -195,13 +217,7 @@ class SponsorTableSeeder extends Seeder {
 				'current' => '1',
 				'year' => '2015'
 			);
-			$sponsors[] = array('name' => 'CrossBrowserTesting.com',
-				'link' => 'http://crossbrowsertesting.com/',
-				'logo_path' => 'images/cbt-logo.png',
-				'alt_text' => 'Test your websites on the same browsers and devices your customers use.',
-				'current' => '1',
-				'year' => '2015'
-			);
+
 
 			foreach ($sponsors as $sponsor) {
 				// Turn Years into Array
