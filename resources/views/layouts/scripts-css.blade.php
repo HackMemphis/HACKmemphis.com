@@ -41,6 +41,9 @@
 <link rel="apple-touch-icon" href="images/favicon.png" />
 <link rel="apple-touch-icon" sizes="72x72" href="images/favicon.png" />
 <link rel="apple-touch-icon" sizes="114x114" href="images/favicon.png" />
+<meta property="og:title" content="HACKmemphis.com - Memphis Hackathon Event" />
+<meta property="og:image" content="images/HACKmemphis-Badge.png" />
+
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
