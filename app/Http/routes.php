@@ -13,8 +13,11 @@
 
 Route::get('/', ['as' => 'home', 'uses' => 'HomeController@index']);
 Route::get('/sponsors', ['as' => 'sponsors.index', 'uses' => 'SponsorController@index']);
+Route::get('/survey', ['as' => 'survey', 'uses' => 'HomeController@redirectToSurvery']);
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController'
 ]);
+
+
