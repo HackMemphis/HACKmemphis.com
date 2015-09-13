@@ -43,7 +43,7 @@ class HomeController extends Controller {
 		           ->with('sponsors', $sponsors);
 	}
 
-	public function redirectToSurvery()
+	public function redirectToSurvey()
 	{
 		$url = 'https://www.surveymonkey.com/r/7NXKR5M';
 

@@ -13,7 +13,7 @@
 
 Route::get('/', ['as' => 'home', 'uses' => 'HomeController@index']);
 Route::get('/sponsors', ['as' => 'sponsors.index', 'uses' => 'SponsorController@index']);
-Route::get('/survey', ['as' => 'survey', 'uses' => 'HomeController@redirectToSurvery']);
+Route::get('/survey', ['as' => 'survey', 'uses' => 'HomeController@redirectToSurvey']);
 
 Route::controllers([
 	'auth' => 'Auth\AuthController',
