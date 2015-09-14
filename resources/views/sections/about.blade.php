@@ -1,8 +1,6 @@
 <section id="about">
     <div class="row">
         <div class="twelve columns">
-            <h1 class="section-title"><span>Tickets on sale now!</span></h1>
-            <iframe frameborder="0" width="100%" height="442"  src="http://peatix.com/event/105091/share/widget?z=1&c=dark&t=1&a=1"></iframe>
 
             <h1 class="section-title"><span>About</span></h1>
             <div class="about-text">

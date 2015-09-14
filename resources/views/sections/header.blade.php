@@ -13,7 +13,7 @@
                 <li><a class="scroll" href="#sponsors">Sponsors</a></li>
                 <li><a class="scroll" href="#mailinglist">Mailing List</a></li>
                 <li><a class="scroll" href="#contact">Contact</a></li>
-                <li><a class="btn register scroll" href="http://ptix.co/1DHy6jb" title="Buy Tickets Now">Buy Tickets</a></li>
+                <!-- <li><a class="btn register scroll" href="http://ptix.co/1DHy6jb" title="Buy Tickets Now">Buy Tickets</a></li> -->
             </ul><!-- #navigation -->
         </nav><!-- #nav -->
     </div> <!-- .row < #header -->
