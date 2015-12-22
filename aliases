@@ -5,6 +5,7 @@ alias h='cd ~'
 alias c='clear'
 alias composer="php -d zend.enable_gc=0 /usr/local/bin/composer"
 alias codecept="./vendor/codeception/codeception/codecept"
+alias phpunit="./vendor/bin/phpunit"
 function serve() {
 	if [[ "$1" && "$2" ]]
 	then
