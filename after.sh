@@ -1,4 +1,9 @@
 #!/bin/sh
+
+# If you would like to do some extra provisioning you may
+# add any commands you wish to this file and they will
+# be run after the Homestead machine is provisioned.
+
 apt-get -y install phantomjs screen
 mysql -u root -pvagrant -e "GRANT ALL PRIVILEGES ON homestead.* TO 'homestead'@'%' IDENTIFIED BY 'secret'"
 echo "Set Travis privs"
