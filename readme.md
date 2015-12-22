@@ -11,3 +11,12 @@ HACKmemphis.com is the website for the HACKmemphis hackathon event held yearly i
 Find a bug? Open a Github issue to let us know!
 
 Want to contribute? See ```CONTRIBUTING.md``` for info.
+
+
+### Local Development
+
+* Clone Repository
+* CD into this folder
+* Run `composer install`
+* Run `php vendor/bin/homestead make`
+* Run `vagrant up`
