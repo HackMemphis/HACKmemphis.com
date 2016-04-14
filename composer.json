@@ -13,7 +13,7 @@
 	  	"phpunit/phpunit": "4.8.*",
         "fzaninotto/faker": "dev-master",
         "way/generators": "~3.0",
-		"laravel/homestead": "~2"
+		"laravel/homestead": "~3"
 	},
 	"autoload": {
 		"classmap": [
