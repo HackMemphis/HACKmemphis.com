@@ -15,6 +15,7 @@ class SponsorTableSeeder extends Seeder {
 			$year2013 = Year::where('year', '2013')->first();
 			$year2014 = Year::where('year', '2014')->first();
             $year2015 = Year::where('year', '2015')->first();
+			$year2016 = Year::where('year', '2016')->first();
 
 			$sponsors = [];
 			$sponsors[] = array('name' => 'CrossBrowserTesting.com',
@@ -43,7 +44,7 @@ class SponsorTableSeeder extends Seeder {
 				'logo_path' => 'images/stackedlarge-460x435.png',
 				'alt_text' => 'Memphis Area Makerspace',
 				'current' => '1',
-				'year' => '2013,2014,2015'
+				'year' => '2013,2014,2015,2016'
 			);
 			$sponsors[] = array('name' => 'Vaco',
 				'link' => 'http://www.vaco.com/',
@@ -228,7 +229,7 @@ class SponsorTableSeeder extends Seeder {
                 'logo_path' => 'images/MTF-Stacked-Badge.png',
                 'alt_text' => 'Facilitating technical events in the Memphis, TN Area',
                 'current' => '1',
-                'year' => '2013,2014,2015'
+                'year' => '2013,2014,2015,2016'
             );
 
 
@@ -263,6 +264,12 @@ class SponsorTableSeeder extends Seeder {
                         $newSponsor->years()
                                    ->attach($year2015->id);
                     }
+
+					if ($year == '2016')
+					{
+						$newSponsor->years()
+							->attach($year2016->id);
+					}
 				}
 
 			}

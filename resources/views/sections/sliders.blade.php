@@ -13,7 +13,7 @@
                     <h2 class="slide-title">HACKmemphis</h2>
                         <span class="sub-head">
                             Bringing together local tech communities to develop hardware and software projects in Memphis. <br />
-                            Coming September 2015
+                            Fourth Event Coming September 2016
                         </span>
                 </div>
             </li>

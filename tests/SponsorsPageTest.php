@@ -14,6 +14,7 @@ class SponsorsPageTest extends TestCase
     public function testSponsorsPageTest()
     {
         $this->visit('/sponsors')
+            ->see('<span>2016 Sponsors</span>')
             ->see('<span>2015 Sponsors</span>')
             ->see('<span>2014 Sponsors</span>')
             ->see('<span>2013 Sponsors</span>')

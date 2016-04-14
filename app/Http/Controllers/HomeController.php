@@ -34,8 +34,8 @@ class HomeController extends Controller {
 	public function index()
 	{
         // get current sponsors
-		$sponsors['2015'] = $this->year
-			->where('year', '2015')
+		$sponsors['2016'] = $this->year
+			->where('year', '2016')
 			->first()
 			->sponsors;
 

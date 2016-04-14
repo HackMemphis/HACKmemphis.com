@@ -31,6 +31,12 @@ class SponsorController extends Controller {
             ->first()
             ->sponsors;
 
+        // Get 2015 Sponsors
+        $sponsors['2016'] = $this->year
+            ->where('year', '2016')
+            ->first()
+            ->sponsors;
+
         return \View::make('sponsors.index')
                     ->with('sponsors', $sponsors);
     }

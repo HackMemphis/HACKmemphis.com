@@ -15,7 +15,7 @@ class SponsorsSectionTest extends TestCase
     {
         $this->visit('/')
             ->see('<a class="scroll" href="#sponsors">Sponsors</a>')
-            ->see('<span>2015 Sponsors</span>')
+            ->see('<span>2016 Sponsors</span>')
             ->dontSee('Whoops');
     }
 }
