@@ -1,6 +1,7 @@
 <?php namespace App\Http\Controllers;
 
-class SponsorController extends Controller {
+class SponsorController extends Controller
+{
 
     protected $sponsor;
     protected $year;
@@ -13,17 +14,17 @@ class SponsorController extends Controller {
 
     public function index()
     {
-		// Get 2014 Sponsors
-		$sponsors['2014'] = $this->year
-			->where('year', '2014')
-			->first()
-			->sponsors;
+        // Get 2014 Sponsors
+        $sponsors['2014'] = $this->year
+            ->where('year', '2014')
+            ->first()
+            ->sponsors;
 
-		// Get 2013 Sponsors
-		$sponsors['2013'] = $this->year
-			->where('year', '2013')
-			->first()
-			->sponsors;
+        // Get 2013 Sponsors
+        $sponsors['2013'] = $this->year
+            ->where('year', '2013')
+            ->first()
+            ->sponsors;
 
         // Get 2015 Sponsors
         $sponsors['2015'] = $this->year

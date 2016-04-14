@@ -16,8 +16,6 @@ Route::get('/sponsors', ['as' => 'sponsors.index', 'uses' => 'SponsorController@
 Route::get('/survey', ['as' => 'survey', 'uses' => 'HomeController@redirectToSurvey']);
 
 Route::controllers([
-	'auth' => 'Auth\AuthController',
-	'password' => 'Auth\PasswordController'
+    'auth' => 'Auth\AuthController',
+    'password' => 'Auth\PasswordController'
 ]);
-
-
