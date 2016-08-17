@@ -10,7 +10,7 @@
                 <p>HACKmemphis is a mutual benefit nonprofit in the state of Tennessee. The
                     inaugural HACKmemphis Hackathon was September 14th &amp; 15th 2013. Our goal is to bring
                     together tech communities to develop hardware and software projects in Memphis. We are currently
-                    planning our next event for September 2016. If you would be interested in volunteering or helping plan please
+                    planning our next event for September 23rd-25th 2016. If you would be interested in volunteering or helping plan please
                     contact <a href="mailto:bryan@hackmemphis.com">Bryan</a>.
                 </p>
                 <p>HACKmemphis is organized by a group in Memphis comprised of developers, makers, hackers, and
