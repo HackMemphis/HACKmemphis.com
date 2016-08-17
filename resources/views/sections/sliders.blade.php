@@ -13,7 +13,12 @@
                     <h2 class="slide-title">HACKmemphis</h2>
                         <span class="sub-head">
                             Bringing together local tech communities to develop hardware and software projects in Memphis. <br />
-                            Fourth Event Coming September 23rd-25th 2016
+                            Fourth Event Coming September 23rd-25th 2016 <br />
+                            <h2>
+                                <a href="https://www.eventbrite.com/e/hackmemphis-2016-tickets-26848269898" target="_blank">
+                                    Buy Tickets Now!
+                                </a>
+                            </h2>
                         </span>
                 </div>
             </li>
